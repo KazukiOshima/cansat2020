@@ -1,16 +1,14 @@
 # -*- coding: utf-8 -*-
 import time
 import lora_setting
-import gps
 
 
 # LoRa送信用クラス
-class radio(object):
+class radio:
 
     def __init__(self, lora_device, channel):
         self.sendDevice = lora_setting.LoraSettingClass(lora_device)
         self.channel = channel
-        self.gps = gps.GPS()
         #self.channel = 15
 
     # ES920LRデータ送信メソッド
@@ -26,14 +24,10 @@ class radio(object):
         # LoRa(ES920LR)データ送信
         while True:
             try:
-                self.gps.gpsread()
                 # 送るデータ
-                data = str(self.gps.Time) + ","\
-                       + str(self.gps.Lat) + ","\
-                       + str(self.gps.Lon)
-                print(data)
-                self.sendDevice.cmd_lora(data)
-               
+                data = 'aaaa'
+                print('<-- SEND -- [00010002 {} ]'.format(data))
+                self.sendDevice.cmd_lora('00010002{}'.format(data))
             except KeyboardInterrupt:
                 self.sendDevice.close()
             # 1秒待機
