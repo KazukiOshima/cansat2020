@@ -263,14 +263,3 @@ class Cansat(object):
             
 if __name__ == "__main__":
     pass
-
-#追記↓
-cansat = Cansat() 
-cansat.setup()
-while True:
-    try:
-        cansat.sensor()
-    except KeyboardInterrupt:
-        self.sendDevice.close()
-    # 1秒待機
-    time.sleep(1)
