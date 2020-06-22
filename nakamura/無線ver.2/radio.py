@@ -2,8 +2,6 @@
 import time
 import radio_setting
 
-import gps #0620_1
-
 # LoRa送信用クラス
 class radio(object):
 
