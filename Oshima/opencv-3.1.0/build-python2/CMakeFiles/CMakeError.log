@@ -1,0 +1,68 @@
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c12e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c12e.dir/build.make CMakeFiles/cmTC_7c12e.dir/build
+make[1]: ディレクトリ '/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_7c12e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_7c12e.dir/CheckIncludeFile.c.o   -c /home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: そのようなファイルやディレクトリはありません
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7c12e.dir/build.make:66: CMakeFiles/cmTC_7c12e.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_7c12e/fast] エラー 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e984/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e984.dir/build.make CMakeFiles/cmTC_8e984.dir/build
+make[1]: ディレクトリ '/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_8e984.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_8e984.dir/CheckIncludeFile.c.o   -c /home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: そのようなファイルやディレクトリはありません
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_8e984.dir/build.make:66: CMakeFiles/cmTC_8e984.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_8e984/fast] エラー 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7e9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7e9f.dir/build.make CMakeFiles/cmTC_e7e9f.dir/build
+make[1]: ディレクトリ '/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_e7e9f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_e7e9f.dir/CheckIncludeFile.c.o   -c /home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libavformat/avformat.h: そのようなファイルやディレクトリはありません
+ #include <libavformat/avformat.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e7e9f.dir/build.make:66: CMakeFiles/cmTC_e7e9f.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_e7e9f/fast] エラー 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e0ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e0ad.dir/build.make CMakeFiles/cmTC_8e0ad.dir/build
+make[1]: ディレクトリ '/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_8e0ad.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_8e0ad.dir/CheckIncludeFile.c.o   -c /home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: ffmpeg/avformat.h: そのようなファイルやディレクトリはありません
+ #include <ffmpeg/avformat.h>
+          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_8e0ad.dir/build.make:66: CMakeFiles/cmTC_8e0ad.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/opencv-3.1.0/build-python2/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_8e0ad/fast] エラー 2
+
+
